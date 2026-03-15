@@ -1,0 +1,45 @@
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace (main)
+$ pwd
+/c/Users/38599/Github/FIPU-OS-zadace
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace (main)
+$ cd OS_1/
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_1 (main)
+$ touch zadatak_2.txt
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_1 (main)
+$ cd..
+bash: cd..: command not found
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_1 (main)
+$ cd ..
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace (main)
+$ mkdir vjezba2
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace (main)
+$ cd vjezba2
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/vjezba2 (main)
+$ touch file.txt
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/vjezba2 (main)
+$ cp file.txt file_copy.txt
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/vjezba2 (main)
+$ ls
+file.txt  file_copy.txt
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/vjezba2 (main)
+$ rm file.txt
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/vjezba2 (main)
+$ cd ..
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace (main)
+$ rm vjezba2
+rm: cannot remove 'vjezba2': Is a directory
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace (main)

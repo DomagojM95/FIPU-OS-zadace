@@ -1,0 +1,39 @@
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_1 (main)
+$ pwd
+/c/Users/38599/Github/FIPU-OS-zadace/OS_1
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_1 (main)
+$ cd ..
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace (main)
+$ mkdir vjezba4 && mkdir vjezba4/subfolder
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace (main)
+$ touch vjezba4/HOSTNAME.txt
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace (main)
+$ mv vjezba4/HOSTNAME USERNAME
+mv: cannot stat 'vjezba4/HOSTNAME': No such file or directory
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace (main)
+$ mv vjezba4/HOSTNAME vjezba4/USER
+mv: cannot stat 'vjezba4/HOSTNAME': No such file or directory
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace (main)
+$ mv vjezba4/USERNAME.txt vjezba4/USER.txt
+mv: cannot stat 'vjezba4/USERNAME.txt': No such file or directory
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace (main)
+$ mv vjezba4/HOSTNAME.txt vjezba4/USER.txt
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace (main)
+$ mv vjezba4/USER.txt vjezba4/subfolder
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace (main)
+$ pwd
+/c/Users/38599/Github/FIPU-OS-zadace
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace (main)
+$ rm /c/Users/38599/Github/FIPU-OS-zadace/vjezba4/subfolder/USER.txt
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace (main)

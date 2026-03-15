@@ -1,0 +1,36 @@
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace (main)
+$ pwd
+/c/Users/38599/Github/FIPU-OS-zadace
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace (main)
+$ mkdir vjezba3 && mkdir vjezba3/backup
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace (main)
+$ touch vjezba3/notes.txt vjezba3/todo.txt vjezba3/script.sh
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace (main)
+$ cp vjezba3/notes.txt vjezba3/backup/ && cp vjezba3/todo.txt vjezba3/backup/ && cp vjezba3/script.sh vjezba3/backup/
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace (main)
+$ cd vjezba3
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/vjezba3 (main)
+$ rm script.sh
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/vjezba3 (main)
+$ ls
+backup/  notes.txt  todo.txt
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/vjezba3 (main)
+$ mkdirbackup/USER
+bash: mkdirbackup/USER: No such file or directory
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/vjezba3 (main)
+$ mkdir backup/USER
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/vjezba3 (main)
+$ mv backup/notes.txt backup/todo.txt backup/USER
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/vjezba3 (main)
+$
