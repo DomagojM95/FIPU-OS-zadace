@@ -1,0 +1,318 @@
+ZADATAK 2
+
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2 (main)
+$ pwd
+/c/Users/38599/Github/FIPU-OS-zadace/OS_2
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2 (main)
+$ rm _tekst.txt
+rm: cannot remove '_tekst.txt': No such file or directory
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2 (main)
+$ ls
+tekst.txt
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2 (main)
+$ rm tekst.txt
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2 (main)
+$ ls
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2 (main)
+$ touch vjezba_2.txt
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2 (main)
+$ wd
+bash: wd: command not found
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2 (main)
+$ pwd
+/c/Users/38599/Github/FIPU-OS-zadace/OS_2
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2 (main)
+$ mkdir vjezbe_2
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2 (main)
+$ ls
+vjezba_2.txt  vjezbe_2/
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2 (main)
+$ cd vjezbe_2
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2 (main)
+$ mkdir data
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2 (main)
+$ mkdir backup
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2 (main)
+$ ls
+backup/  data/
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2 (main)
+$ touch data/script.js
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2 (main)
+$ touch data/style.cs
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2 (main)
+$ ls
+backup/  data/
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2 (main)
+$ ls data
+script.js  style.cs
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2 (main)
+$ toich data/.env
+bash: toich: command not found
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2 (main)
+$ touch data/.env
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2 (main)
+$ ls data
+script.js  style.cs
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2 (main)
+$ echo "console.log("Hello, World") > data/script.js
+> 
+> q
+> del
+> echo "console.log(\"Hello, World\")" > data/script.js
+bash: syntax error near unexpected token `('
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2 (main)
+$ echo "console.log("Hello, World!") > data/script.js
+bash: !": event not found
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2 (main)
+$ echo 'console.log("hello, WOrld!")' > data/script.js
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2 (main)
+$ cat data/script.js
+console.log("hello, WOrld!")
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2 (main)
+$ ls
+backup/  data/
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2 (main)
+$ ls data
+script.js  style.cs
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2 (main)
+$ rm data/style.cs
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2 (main)
+$ touch data/style.css
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2 (main)
+$ ls data
+script.js  style.css
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2 (main)
+$ echo "body { background-color: ^f0f0f0;}" >data/style.css
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2 (main)
+$ cat data/style.css
+body { background-color: ^f0f0f0;}
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2 (main)
+$ echo "VJEZBE-OS" > data/.env
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2 (main)
+$ ls -a
+./  ../  backup/  data/
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2 (main)
+$ ls -a data
+./  ../  .env  script.js  style.css
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2 (main)
+$ cat .env
+cat: .env: No such file or directory
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2 (main)
+$ cat data/.env
+VJEZBE-OS
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2 (main)
+$ ls
+backup/  data/
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2 (main)
+$ cat * .*
+cat: backup: Is a directory
+cat: data: Is a directory
+cat: '.*': No such file or directory
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2 (main)
+$ cat data/* .*
+console.log("hello, WOrld!")
+body { background-color: ^f0f0f0;}
+cat: '.*': No such file or directory
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2 (main)
+$
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2 (main)
+$ cat data/* .env
+console.log("hello, WOrld!")
+body { background-color: ^f0f0f0;}
+cat: .env: No such file or directory
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2 (main)
+$ cat data/*
+console.log("hello, WOrld!")
+body { background-color: ^f0f0f0;}
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2 (main)
+$ cat -a data/
+cat: unknown option -- a
+Try 'cat --help' for more information.
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2 (main)
+
+
+ZADATAK 3
+
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2 (main)
+$ pwd
+/c/Users/38599/Github/FIPU-OS-zadace/OS_2/vjezbe_2
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2 (main)
+$ cd ..
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2 (main)
+$ ls
+vjezba_2.txt  vjezbe_2/
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2 (main)
+$ cp -r data/. backup/
+cp: cannot stat 'data/.': No such file or directory
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2 (main)
+$ cd vjezbe_2
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2 (main)
+$ cp -r data/. backup/
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2 (main)
+$ ls -a backup
+./  ../  .env  script.js  style.css
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2 (main)
+$ cd backup
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2/backup (main)
+$ ls -lahS --/backup
+ls: unknown option -- /backup
+Try 'ls --help' for more information.
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2/backup (main)
+$ ls -lahS ../backup
+total 3.0K
+-rw-r--r-- 1 38599 197609 35 Mar 22 15:57 style.css
+-rw-r--r-- 1 38599 197609 29 Mar 22 15:57 script.js
+-rw-r--r-- 1 38599 197609 10 Mar 22 15:57 .env
+drwxr-xr-x 1 38599 197609  0 Mar 22 15:57 ./
+drwxr-xr-x 1 38599 197609  0 Mar 22 15:24 ../
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2/backup (main)
+
+
+ZADATAK 4
+
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2/backup (main)
+$ pwd
+/c/Users/38599/Github/FIPU-OS-zadace/OS_2/vjezbe_2/backup
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2/backup (main)
+$ cd data
+bash: cd: data: No such file or directory
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2/backup (main)
+$ cd ..
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2 (main)
+$ cd data
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2/data (main)
+$ r, -1 script.js style.css
+bash: r,: command not found
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2/data (main)
+$ rm -i script.js style.css
+rm: remove regular file 'script.js'? y
+rm: remove regular file 'style.css'? y
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2/data (main)
+$ ls -la
+total 1
+drwxr-xr-x 1 38599 197609  0 Mar 22 16:05 ./
+drwxr-xr-x 1 38599 197609  0 Mar 22 15:24 ../
+-rw-r--r-- 1 38599 197609 10 Mar 22 15:42 .env
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2/data (main)
+$ ls
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2/data (main)
+$ ls -a
+./  ../  .env
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2/data (main)
+$ cp -rn ../backup/..
+cp: missing destination file operand after '../backup/..'
+Try 'cp --help' for more information.
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2/data (main)
+$ cp -rn ../backup/. .
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2/data (main)
+$ ls -lath
+total 3.0K
+drwxr-xr-x 1 38599 197609  0 Mar 22 16:08 ./
+-rw-r--r-- 1 38599 197609 29 Mar 22 16:08 script.js
+-rw-r--r-- 1 38599 197609 35 Mar 22 16:08 style.css
+-rw-r--r-- 1 38599 197609 10 Mar 22 15:42 .env
+drwxr-xr-x 1 38599 197609  0 Mar 22 15:24 ../
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2/data (main)
+$ ls data
+ls: cannot access 'data': No such file or directory
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2/data (main)
+$ ls
+script.js  style.css
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2/data (main)
+$ ls -a
+./  ../  .env  script.js  style.css
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2/data (main)
+$ ls backup
+ls: cannot access 'backup': No such file or directory
+
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2/data (main)
+$ ls .lath
+ls: cannot access '.lath': No such file or directory
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2/data (main)
+$ ls -lath
+total 3.0K
+drwxr-xr-x 1 38599 197609  0 Mar 22 16:08 ./
+-rw-r--r-- 1 38599 197609 29 Mar 22 16:08 script.js
+-rw-r--r-- 1 38599 197609 35 Mar 22 16:08 style.css
+-rw-r--r-- 1 38599 197609 10 Mar 22 15:42 .env
+drwxr-xr-x 1 38599 197609  0 Mar 22 15:24 ../
+
+38599@Domagoj MINGW64 ~/Github/FIPU-OS-zadace/OS_2/vjezbe_2/data (main)
+$
+
+
+ZADATAK 5
