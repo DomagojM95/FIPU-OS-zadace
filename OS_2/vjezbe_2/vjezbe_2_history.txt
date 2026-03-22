@@ -1,0 +1,156 @@
+38599@Domagoj MINGW64 ~/github/FIPU-OS-zadace/OS_2/vjezbe_2 (main)
+$ history
+    1  ls
+    2  rn-starter
+    3  cd rn-starter
+    4  ls
+    5  npm nistall
+    6  npm install
+    7  npm install
+    8  npm start
+    9  ln
+   10   cd rn-starter
+   11  ls
+   12  cd rn-starter
+   13  npm install
+   14  ls
+   15  mkdir OS_2
+   16  cd OS_2
+   17  touch tekst.txt
+   18  git ---version
+   19  git --version
+   20  clear
+   21  pwd
+   22  rm _tekst.txt
+   23  ls
+   24  rm tekst.txt
+   25  ls
+   26  touch vjezba_2.txt
+   27  wd
+   28  pwd
+   29  mkdir vjezbe_2
+   30  ls
+   31  cd vjezbe_2
+   32  mkdir data
+   33  mkdir backup
+   34  ls
+   35  touch data/script.js
+   36  touch data/style.cs
+   37  ls
+   38  ls data
+   39  toich data/.env
+   40  touch data/.env
+   41  ls data
+   42  echo "console.log("Hello, World") > data/script.js
+
+q
+del
+echo "console.log(\"Hello, World\")" > data/script.js
+   43  echo 'console.log("hello, WOrld!")' > data/script.js
+   44  cat data/script.js
+   45  ls
+   46  ls data
+   47  rm data/style.cs
+   48  touch data/style.css
+   49  ls data
+   50  echo "body { background-color: ^f0f0f0;}" >data/style.css
+   51  cat data/style.css
+   52  echo "VJEZBE-OS" > data/.env
+   53  ls -a
+   54  ls -a data
+   55  cat .env
+   56  cat data/.env
+   57  ls
+   58  cat * .*
+   59  cat data/* .*
+   60  cat data/* .env
+   61  cat data/*
+   62  cat -a data/
+   63  git add
+   64  git add .
+   65  git add .
+   66  git commmit -m "Prvi i drugi zadtak rijesen"
+   67  git commit -m "prvi i drugi zadatak rijeseni"
+   68  git push
+   69  clear
+   70  pwd
+   71  cd ..
+   72  ls
+   73  cp -r data/. backup/
+   74  cd vjezbe_2
+   75  cp -r data/. backup/
+   76  ls -a backup
+   77  cd backup
+   78  ls -lahS --/backup
+   79  ls -lahS ../backup
+   80  git add .
+   81  git commit -m "Zadatak 3 rijesen"
+   82  git push
+   83  clear
+   84  pwd
+   85  cd data
+   86  cd ..
+   87  cd data
+   88  r, -1 script.js style.css
+   89  rm -i script.js style.css
+   90  ls -la
+   91  ls
+   92  ls -a
+   93  cp -rn ../backup/..
+   94  cp -rn ../backup/. .
+   95  ls -lath
+   96  ls data
+   97  ls
+   98  ls -a
+   99  ls backup
+  100  tree -a data
+  101  tree
+  102  tree install
+  103  find data
+  104  ls .lath
+  105  ls -lath
+  106  git add .
+  107  git commit -m "Zadatak 4 rijesen"
+  108  git add .
+  109   git commit -m "Zadatak 4 rijesen"
+  110  cd ..
+  111  git add .
+  112  git commit -m "Zadatak 4 rijesen"
+  113  pwd
+  114  cd ..
+  115  git add -
+  116  git add .
+  117  cd vjezbe_2
+  118  git push
+  119  cd ..
+  120  git add .
+  121  git push
+  122  git commit -m "Zadatak 4 rijesen"
+  123  tree
+  124  tree.com
+  125  tree-com /F
+  126  tree.com /F
+  127  clear
+  128  pwd
+  129  cd ..
+  130  cd ..
+  131  cd..
+  132  cd ..
+  133  ls
+  134  ls -lahS
+  135  ls -lhS
+  136  tree.com /F
+  137  cd github
+  138  ls
+  139  cd FIPU-OS-zadace
+  140  ls
+  141  cd OS_2
+  142  ls
+  143  git add .
+  144  git commit -m "Rijesen zadatak 5"
+  145  git push
+  146  cd vjezba_2
+  147  ls
+  148  cd vjezbe_2
+  149  touch vjezbe_2_history.txt
+  150  history
